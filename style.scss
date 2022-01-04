@@ -1,0 +1,25 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .search {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 10px 10px;
+     
+  }
+  .zadanie {
+    background: red;
+    padding: 20px;
+    margin: 20px;
+  }
+  .todo {
+    &__item {
+      background: orange;
+      margin-bottom: 10px;
+      border: 1px solid red;
+    }
+  }
+  
